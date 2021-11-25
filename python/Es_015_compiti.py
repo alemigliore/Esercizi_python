@@ -18,7 +18,7 @@ def ePrimo(num):
 
 conta=0
 
-for num in range(1,1000):
+for num in range(1000):
     if((ePrimo(num))):
         conta+=1
 
