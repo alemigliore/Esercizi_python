@@ -1,0 +1,44 @@
+turtle.Turtle()
+finestra = turtle.Screen()
+riga = 50
+angolo = 15
+angolo1 = 15
+angolo2 = 30
+for k in range(6):
+
+goto:(0,0)
+right:(angolo)
+forward:(riga)
+right:(angolo1)
+forward:(riga)
+right:(angolo2)
+forward:(riga)
+goto:(0,0)
+
+riga = 75
+
+for k in range(6):
+
+goto:(0,0)
+right:(angolo)
+forward:(riga)
+right:(angolo1)
+forward:(riga)
+right:(angolo2)
+forward:(riga)
+goto:(0,0)
+
+riga = 100
+
+for k in range(6):
+
+goto:(0,0)
+right:(angolo)
+forward:(riga)
+right:(angolo1)
+forward:(riga)
+right:(angolo2)
+forward:(riga)
+goto:(0,0)
+
+finestra.exitonclick()
