@@ -25,5 +25,5 @@ for linea in testo:
 
 comm = controllaComm(testo)
 
-print(f"Le righe del file sono : {nRighe} , printf è stata chiamata {k} e sono stati inseriti {comm} commenti del codice)")
+print(f"Le righe del file sono : {nRighe} , printf è stata chiamata {k} volte e sono stati inseriti {comm} commenti del codice")
 
