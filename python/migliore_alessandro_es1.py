@@ -26,6 +26,26 @@ print(lista)
 for j in range(giorni):
     somma = somma + lista[k]
 
-print(f"la somma degli spostamenti è {somma}")
+print(f"la somma degli spostamenti e' {somma}")
 
+#CORREZIONE
+"""
+import random
 
+def spostamentoRandom():
+    spostamento=0
+    while(spostamento==0):
+        spostamento = random.randint(-1,1)#casuale da -1 a 1 caso 0
+    
+    return spostamento
+
+n=0
+listaMovimenti=[spostamentoRandom() for _ in range(432000)]# chiamo la funz spostamento random per il numero di secondi in 5 giorni
+
+sommaMovimenti=0
+for movimento in listaMovimenti:
+    sommaMovimenti+=listaMovimenti[movimento]#sommo ogni elemento
+print(listaMovimenti)
+print(f"La somma dei movimenti totali e' : {sommaMovimenti}")
+
+"""
