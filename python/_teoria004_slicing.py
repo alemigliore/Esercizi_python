@@ -2,7 +2,7 @@
 
 stringa = "Classe quarta A robotica"
 print(f"Il primo carattere della stringa è  {stringa[0]}")
-print(f"L' ultimo carattere della stringa è {stringa[0]}")
+print(f"L' ultimo carattere della stringa è {stringa[-1]}")
 
 print(stringa[0:6])
 print(stringa[6:2])
