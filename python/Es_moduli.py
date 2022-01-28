@@ -15,11 +15,11 @@ def main():
     
     c.print()
 
-    for k in range(counter):
+    for _ in range(counter):
         num = c.denqueue()
         p.push(num)
     
-    for j in range(counter):
+    for _ in range(counter):
         num = p.pop()
         c1.enqueue(num)
     
